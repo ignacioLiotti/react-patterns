@@ -1,0 +1,36 @@
+.freeHandPatternForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.freeHandPatternForm label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.freeHandPatternForm textarea {
+  resize: none;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.freeHandPatternForm button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease
+}
+
+.freeHandPatternForm button:hover {
+background-color: #43a047;
+}
+
+.freeHandPatternForm button:focus {
+outline: none;
+}

@@ -1,0 +1,17 @@
+.rerenderButton {
+  background-color: #2196f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rerenderButton:hover {
+  background-color: #1e88e5;
+}
+
+.rerenderButton:focus {
+  outline: none;
+}

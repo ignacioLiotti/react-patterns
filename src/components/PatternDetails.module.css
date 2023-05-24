@@ -1,0 +1,12 @@
+.patternDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.patternDetails h2 {
+  margin-bottom: 0.5rem;
+}
+
+.patternDetails p {
+  margin-bottom: 1rem;
+}

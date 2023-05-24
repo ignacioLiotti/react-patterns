@@ -1,0 +1,26 @@
+.customNode {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.rerendering {
+  animation: pulse 1s;
+  background-color: red;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f0f0f0;
+  }
+  50% {
+    background-color: #f01818;
+  }
+  100% {
+    background-color: #ff0000;
+  }
+}
